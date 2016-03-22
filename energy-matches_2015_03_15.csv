@@ -1,0 +1,163 @@
+thialfihar,apg,Dominik,dominik@dominikschuermann.de,662e79ac2e6e9273d62270251b738c04b971262e,"completly new PasswordCacheService (more energy efficient), reworked Password dialogs"
+Berlin-Vegan,berlin-vegan-guide,Julian Strobl,stroblju@gmail.com,0a2ccbbb32240459110475378b0c7a76d93cdfbd,"avoid illegal argument exception if provider does not exists
+
+Avoid 'IllegalArgumentException: provider doesn't exist: null'.
+
+Also choose three minutes for minTime and hundred meters for minDistance
+to conserve battery life."
+dolphin-emu,dolphin,Ryan Houdek,sonicadvance1@gmail.com,918dc3d6d1abd3814e3d28740de03bbabc9f8273,"Remove all instances of OpenCL in the Dolphin Project. A brief history of OpenCL in Dolphin. OpenCL was originally added to the Dolphin codebase 1 month after it was released with OS X Snow Leopard in 2009. OpenCL was one of the largest group projects that Dolphin ever has had. The OpenCL texture decoder was originally aded with version 1.0 of the OpenCL spec; This version didn't have the capability of a OpenCL-OpenGL interop which would allow for uploading textures once and have it decoded directly to a OpenGL texure. This was to be worked out when the OpenCL 1.1 spec was released and allowed the interop. This work has never been done, and no one in the team is willing to work on it for various reasons. OpenCL has had the unreasonable expectation that it increases the performance of video games that require a large amount of EFB copies like NSMBW. In reality, enabling OpenCL just put the graphics card in a higher power mode which increased the game speed. This is due to the unfortunate effect of Dolphin tending to not push GPUs out of their lower frequency power savings modes. Thanks to everyone that had contributed to the OpenCL texture decoder."
+mendhak,gpslogger,Fi156,mms89@gmx.de,01f1813d7a4c4b76118597eaf2deddddf1e5194a,"Update GPSLogger/res/values-de/strings.xml
+
+Der Sinn war verdreht. Je weniger Punkte pro Zeit, desto lnger hlt der Akku.
+It would consume more batterie if you log more points/minute. Old Version said: more points/minute = less battery consumption."
+mendhak,gpslogger,Mendhak,smaltaf@msn.com,77d8271f02f77919d6113cf9aa807bb6824bebac,"Distance summary changed, since it doesn't affect battery life anymore"
+Yakoo63,GTalkSMS,Florian Schmaus,fschmaus@gmail.com,3bc06625ac7bfd87fb515e3fcdcba671d03f2272,"- FileCmd with key-value database support
+- set keepAlive interval to 15 min to save energy
+- improved exception handling in xmppMuc"
+k9mail,k-9,Daniel Applebaum,danapple@danapple.com,c966dc1a83653f90e3305dc4cd916ad0003df683,"Fixes Issue 1413
+
+Look for + as acknowledgement that we're in IDLE mode, not ""idling""
+string.  
+
+Also, to help with battery life:
+1) Give up trying to IDLE after 10 failures.
+2) Increase retry delays"
+Grarak,KernelAdiutor,Zhao Wei Liew,zhaoweiliew@gmail.com,330dc8b9f4ad9c7b28162ab8b9370823a6965972,Add power saving workqueues toggle
+anthonycr,Lightning-Browser,Anthony Restaino,anthonyrestaino11@gmail.com,4f3f9d405a427f633b6dd6d7f720f7b6c0cefda1,"2.3.10
+
+- fixed all issues with rendering, performance has increased
+dramatically on not-fullscreen and has increased a little in fullscreen
+- battery life improved as a result
+- added hebrew language
+- changed the way history works (now uses SQLite database, it's way
+better than the android.provider.Browser way)
+- fixed a couple crashes related to bookmarks and downloads
+- formatted the code a little better (thanks to Aeefire for the tips,
+just know I'm taking your advice LOL)"
+anthonycr,Lightning-Browser,Anthony Restaino,anthonyrestaino11@gmail.com,8656b4855838c86925eefa4c86247e83256cb692,"updated to 2.3.0
+
+- new full-screen UI
+- tweaked icon
+- Animations
+- better rendering
+- better performance in full-screen
+- lower battery consumption
+- Chinese traditional language added
+- Chinese simplified language added
+- French Language added
+- fixed errors in settings
+- fixed errors with bookmarks
+- added auto-complete when searching using browser history
+- now uses the standard android history
+- UI tweaks
+- NOTE: you cannot have bookmarks as your homescreen in fullscreen"
+mozilla,MozStumbler,Garvan Keeley,gkeeley@mozilla.com,b690bba380faa7e9cf6e789b6366994e93dc3a51,"Merge pull request #1419 from garvankeeley/power-saving-screen
+
+Added power saving settings screen."
+mozilla,MozStumbler,Garvan Keeley,garvankeeley@gmail.com,af92db5b702bc744b95cacda872cd4a9066e868a,"Added power saving settings screen.
+Added power saving section to drawer view.
+Default power saving depends on presence of sig. motion sensor"
+mozilla,MozStumbler,Victor Ng,victor@crankycoder.com,20205e3f2ac49256768517115d2bd8c3c522c483,"Merge pull request #1399 from garvankeeley/power-saving-options
+
+Motion detection options: off, on, or extra power savings"
+mozilla,MozStumbler,Garvan Keeley,garvankeeley@gmail.com,9df8d06a915b950c0c93639e5a68ec1fd5f0e8de,"Added support in the prefs UI for power saving options. UI only changes
+in this commit"
+mozilla,MozStumbler,Doug Turner,doug.turner@gmail.com,0c5a8f7850f875e92d1932c089b0abc70a203944,Add a way to disable power saving mode
+M66B,NetGuard,M66B,marcel@faircode.eu,51fb57cf208ab79e525431f95f9d1a77b343410f,Enable power save mode only when not installed from the Play store
+M66B,NetGuard,M66B,marcel@faircode.eu,8701bbdef90abada3d8fa5ce9eefc8ab85c7dae8,Add power saving to debug info
+M66B,NetGuard,M66B,marcel@faircode.eu,bdd13b8e203f8d4c6906a302919bb375824f4a1b,"Lets behave
+
+When power save mode is enabled on Lollipop or later:
+- stop traffic logging
+- stop usage logging
+- stop speed graph notification"
+caarmen,network-monitor,Carmen Alvarez,c@rmen.ca,6f79a700980ae652f1eab8c078b08c0a1438f974,"Issue #26: Add setting to choose between high accuracy or power saving, for location updates."
+samuelclay,NewsBlur,dosiecki,ojiikun@gmail.com,df8b6862e1a81d95f755dcc64bec4883e03e08ab,Obey animation disable if power saver kicks in.
+cernekee,ics-openconnect,Arne Schwabe,arne@rfc2549.org,cbe4fce8382aa1c3405d946abf407c7e5acc3a67,"- Increase Version
+- Add FAQ Entry for energy consumption"
+openpgp-keychain,openpgp-keychain,Dominik,dominik@dominikschuermann.de,662e79ac2e6e9273d62270251b738c04b971262e,"completly new PasswordCacheService (more energy efficient), reworked Password dialogs"
+schwabe,ics-openvpn,Arne Schwabe,arne@rfc2549.org,cbe4fce8382aa1c3405d946abf407c7e5acc3a67,"- Increase Version
+- Add FAQ Entry for energy consumption"
+osmandapp,Osmand,Victor Shcherb,victor.shcherb@gmail.com,07becb4a16fc8201d1a1166166e4bc5578faf3f4,Fix battery consumption
+osmandapp,Osmand,Victor Shcherb,victor.shcherb@gmail.com,07becb4a16fc8201d1a1166166e4bc5578faf3f4,Fix battery consumption
+osmandapp,Osmand,Victor Shcherb,victor.shcherb@gmail.com,07becb4a16fc8201d1a1166166e4bc5578faf3f4,Fix battery consumption
+horn3t,android_packages_apps_PerformanceControl,h0rn3t,horn3t69@gmail.com,55c5e4bb326f017c22e5717caff8e5bc8befe820,"added agressive to multicore power saving, added hotplug control, gpu max. freq."
+horn3t,android_packages_apps_PerformanceControl,h0rn3t,horn3t69@gmail.com,c6469f34155fc71e13b2d1baad255ca7fb920493,added multicore power saving
+SyntaxBlitz,PluckLock,Timothy Aveni,timothy@tacosareawesome.com,24ba2c1ee88cb51b7c2e2a7d701f32a1cd13d4f4,"Attempt to conserve battery life
+Stupidly, I had neglected to STOP polling the accelerometer once the
+screen was locked. Which made it drain battery *really* quickly.
+
+Turns out the Android API is broken and won't stop polling the
+accelerometer no matter what, even if you call unregisterListener(). The
+receiver will just keep receiving legit samples and calling your receiver
+method, even after you set everything to null. And battery still drains
+a LOT.
+
+Gr."
+scummvm,scummvm,dhewg,dhewg@wiibrew.org,a5b374de7026451abca95a4f8326bb957a23bbe3,"ANDROID: Check audio buffer for silence
+
+Most games register a music channel, and when there is no music,
+they still stream silence (and run through all the Converter::flow
+code!). Scan the buffer for that to pause the AudioTrack. Ugly, but
+worth it - reduces CPU usage on many games and hence saves battery life."
+Waboodoo,Status-Bar-Tachometer,Roland Meyer,rmy@rmy.ch,286f91c836f253089fcc0b4653128dabe64745fd,location updates are only requested when the screen is on to save energy
+slp,Telegram-FOSS,DrKLO,drklo.2kb@gmail.com,9c99aaa7c7e1b6d416d20570258a2371dd58f183,"Optimized battery consumption, fixed blurry photos on some devices, added option to auto download media only via WiFi, changed way of contacts changes monitoring
+
+https://github.com/DrKLO/Telegram/pull/422
+https://github.com/rubenlagus/Telegram/commit/d96ce3c140bd49c5c8c63cea2b
+c9afad8a16b8bb"
+Zanshinmu,Wifi-Fixer,David Van de Ven,zanshin.g1@gmail.com,5c083b8320617a9c5ee8ac26d374acfd6ed03d34,"Changed defaults to max wifi
+
+power savings"
+hhroc,yellr-android,thequbit,thequbit@gmail.com,a4c04e9ac5b35120ce96020f5401e59342cb206a,"reduced checkin time from 1 minute to 5 minutes (was starting to be an
+issue with battery life)"
+DrKLO,Telegram,DrKLO,drklo.2kb@gmail.com,9c99aaa7c7e1b6d416d20570258a2371dd58f183,"Optimized battery consumption, fixed blurry photos on some devices, added option to auto download media only via WiFi, changed way of contacts changes monitoring
+
+https://github.com/DrKLO/Telegram/pull/422
+https://github.com/rubenlagus/Telegram/commit/d96ce3c140bd49c5c8c63cea2b
+c9afad8a16b8bb"
+Evisceration,DeviceControl,Evisceration,eviscerationls@gmail.com,a41f9551844c9b6dea40a86151530272d318d931,"DC: extras: add power efficient workqueue toggle
+
+we need to chmod it to 644 before as it is not writeable by default on
+some devices, depending on the kernel implementation.
+
+Change-Id: I45d27b18511b32a537f638863cdfb4d584b2174f"
+M66B,NetGuard,M66B,marcel@faircode.eu,51fb57cf208ab79e525431f95f9d1a77b343410f,Enable power save mode only when not installed from the Play store
+M66B,NetGuard,M66B,marcel@faircode.eu,8701bbdef90abada3d8fa5ce9eefc8ab85c7dae8,Add power saving to debug info
+M66B,NetGuard,M66B,marcel@faircode.eu,bdd13b8e203f8d4c6906a302919bb375824f4a1b,"Lets behave
+
+When power save mode is enabled on Lollipop or later:
+- stop traffic logging
+- stop usage logging
+- stop speed graph notification"
+cgeo,cgeo,Stephan Merker,merker.stephan@googlemail.com,ea67ea548854b5e254dbf0d3d3210082f82769b3,"fix #1709: reduce update frequency of position overlay for map
+
+- update only if location changed > 1% of map width or heading >15
+- update at most every half second
+- reduces battery consumption and makes mapsforge 0.3.0 maps usable
+  at all on certain phones like Nexus S
+- fixed redraw issue for followMyLocation"
+crawl,crawl,zelgadis,zelgadis@c06c8d41-db1a-0410-9941-cceddc491573,2130bf2a7e0dbf113651cc57a4ec9c455b67b253,"monsters::lose_energy() now takes optional paramaters to multiply and/or
+divide (rounded up) the amount of energy lost.
+
+When a monster's attack is warded off the energy consumed is half that
+of what the attack would normally have taken, a change from it not
+taking any energy at all.
+
+
+git-svn-id: https://crawl-ref.svn.sourceforge.net/svnroot/crawl-ref/trunk@5249 c06c8d41-db1a-0410-9941-cceddc491573"
+federicoiosue,Omni-Notes,Federico Iosue,federico.iosue@gmail.com,b89291c9bcba61d88dba4977fb04f2f5136e6630,"Address resolved is now saved in DB to avoid battery consumption to
+query Geocoder"
+k9mail,k-9,Daniel Applebaum,danapple@danapple.com,c966dc1a83653f90e3305dc4cd916ad0003df683,"Fixes Issue 1413
+
+Look for + as acknowledgement that we're in IDLE mode, not ""idling""
+string.  
+
+Also, to help with battery life:
+1) Give up trying to IDLE after 10 failures.
+2) Increase retry delays"
+mapsme,omim,Lev Dragunov,lgardster@gmail.com,6609074aaef4f202a7a8bdd8c2ed3505efeeebf1,"Merge pull request #995 from rokuz/follow-and-rotare-limit-fps
+
+Limited FPS in F&R routing mode to reduce energy consumption"
+mapsme,omim,r.kuznetsov,r.kuznetsov@corp.mail.ru,fe29ada6388727394c2cad7ded2d4be2c4218032,Limited FPS in follow-and-rotate routing mode to reduce energy consumption.
+mapsme,omim,Constantin Shalnev,c.shalnev@corp.mail.ru,965f8a9ea7250ff9f1b42c695000f4a22fd80f2b,Stop event loop if app goes to background to reduce power consumption

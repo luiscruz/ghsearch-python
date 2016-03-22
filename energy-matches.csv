@@ -1,0 +1,145 @@
+anthonycr,lightning-browser,Anthony Restaino,anthonyrestaino11@gmail.com,https://api.github.com/repos/anthonycr/Lightning-Browser/git/commits/c68e8567411d63201dc5f61fd6ce455604f415bb,"2.3.10
+
+- fixed all issues with rendering, performance has increased
+dramatically on not-fullscreen and has increased a little in fullscreen
+- battery life improved as a result
+- added hebrew language
+- changed the way history works (now uses SQLite database, it's way
+better than the android.provider.Browser way)
+- fixed a couple crashes related to bookmarks and downloads
+- formatted the code a little better (thanks to Aeefire for the tips,
+just know I'm taking your advice LOL)"
+anthonycr,lightning-browser,Anthony Restaino,anthonyrestaino11@gmail.com,https://api.github.com/repos/anthonycr/Lightning-Browser/git/commits/0510d02988035a7eba31a263a5fed703e0761e29,"updated to 2.3.0
+
+- new full-screen UI
+- tweaked icon
+- Animations
+- better rendering
+- better performance in full-screen
+- lower battery consumption
+- Chinese traditional language added
+- Chinese simplified language added
+- French Language added
+- fixed errors in settings
+- fixed errors with bookmarks
+- added auto-complete when searching using browser history
+- now uses the standard android history
+- UI tweaks
+- NOTE: you cannot have bookmarks as your homescreen in fullscreen"
+berlin-vegan,berlin-vegan-guide,Julian Strobl,stroblju@gmail.com,https://api.github.com/repos/Berlin-Vegan/berlin-vegan-guide/git/commits/4eb4c6745584e7f7ac016a34f86838092ba244f3,"avoid illegal argument exception if provider does not exists
+
+Avoid 'IllegalArgumentException: provider doesn't exist: null'.
+
+Also choose three minutes for minTime and hundred meters for minDistance
+to conserve battery life."
+caarmen,network-monitor,Carmen Alvarez,c@rmen.ca,https://api.github.com/repos/caarmen/network-monitor/git/commits/0e62e16a941d23c722aecc12c61b5016a88db904,"Issue #26: Add setting to choose between high accuracy or power saving, for location updates."
+cernekee,ics-openconnect,Arne Schwabe,arne@rfc2549.org,https://api.github.com/repos/cernekee/ics-openconnect/git/commits/d97943e983f9ae9c48cfc2c6084bfec5049189e2,"- Increase Version
+- Add FAQ Entry for energy consumption"
+cgeo,cgeo,Stephan Merker,merker.stephan@googlemail.com,https://api.github.com/repos/cgeo/cgeo/git/commits/dfd6f35370c0ae7bfc22bf2dc578c9e862992c2f,"fix #1709: reduce update frequency of position overlay for map
+
+- update only if location changed > 1% of map width or heading >15
+- update at most every half second
+- reduces battery consumption and makes mapsforge 0.3.0 maps usable
+  at all on certain phones like Nexus S
+- fixed redraw issue for followMyLocation"
+crawl,crawl,zelgadis,zelgadis@c06c8d41-db1a-0410-9941-cceddc491573,https://api.github.com/repos/crawl/crawl/git/commits/14752e5f2cfddc5b99a104afe1c8d42a74aff22b,"monsters::lose_energy() now takes optional paramaters to multiply and/or
+divide (rounded up) the amount of energy lost.
+
+When a monster's attack is warded off the energy consumed is half that
+of what the attack would normally have taken, a change from it not
+taking any energy at all.
+
+
+git-svn-id: https://crawl-ref.svn.sourceforge.net/svnroot/crawl-ref/trunk@5249 c06c8d41-db1a-0410-9941-cceddc491573"
+dolphin-emu,dolphin,Ryan Houdek,sonicadvance1@gmail.com,https://api.github.com/repos/dolphin-emu/dolphin/git/commits/eb3b933dd0c32c1db7e44a8292c3523927d9ef99,"Remove all instances of OpenCL in the Dolphin Project. A brief history of OpenCL in Dolphin. OpenCL was originally added to the Dolphin codebase 1 month after it was released with OS X Snow Leopard in 2009. OpenCL was one of the largest group projects that Dolphin ever has had. The OpenCL texture decoder was originally aded with version 1.0 of the OpenCL spec; This version didn't have the capability of a OpenCL-OpenGL interop which would allow for uploading textures once and have it decoded directly to a OpenGL texure. This was to be worked out when the OpenCL 1.1 spec was released and allowed the interop. This work has never been done, and no one in the team is willing to work on it for various reasons. OpenCL has had the unreasonable expectation that it increases the performance of video games that require a large amount of EFB copies like NSMBW. In reality, enabling OpenCL just put the graphics card in a higher power mode which increased the game speed. This is due to the unfortunate effect of Dolphin tending to not push GPUs out of their lower frequency power savings modes. Thanks to everyone that had contributed to the OpenCL texture decoder."
+drklo,telegram,DrKLO,drklo.2kb@gmail.com,https://api.github.com/repos/DrKLO/Telegram/git/commits/644fc7ccea9deee3686dc9c824893baa4ce4bef6,"Optimized battery consumption, fixed blurry photos on some devices, added option to auto download media only via WiFi, changed way of contacts changes monitoring
+
+https://github.com/DrKLO/Telegram/pull/422
+https://github.com/rubenlagus/Telegram/commit/d96ce3c140bd49c5c8c63cea2b
+c9afad8a16b8bb"
+evisceration,devicecontrol,Evisceration,eviscerationls@gmail.com,https://api.github.com/repos/Evisceration/DeviceControl/git/commits/139f4c45217155483545d2455ea69dd2e6a1d467,"DC: extras: add power efficient workqueue toggle
+
+we need to chmod it to 644 before as it is not writeable by default on
+some devices, depending on the kernel implementation.
+
+Change-Id: I45d27b18511b32a537f638863cdfb4d584b2174f"
+federicoiosue,omni-notes,Federico Iosue,federico.iosue@gmail.com,https://api.github.com/repos/federicoiosue/Omni-Notes/git/commits/9fe9db8d20f6323589026830e68927d8ad5c30d9,"Address resolved is now saved in DB to avoid battery consumption to
+query Geocoder"
+grarak,kerneladiutor,Zhao Wei Liew,zhaoweiliew@gmail.com,https://api.github.com/repos/Grarak/KernelAdiutor/git/commits/8d4571c2853e4c7bdb30bf36fc372c5582e7b223,Add power saving workqueues toggle
+hhroc,yellr-android,thequbit,thequbit@gmail.com,https://api.github.com/repos/hhroc/yellr-android/git/commits/e63a61566f998c344587baea1382267e0b12d412,"reduced checkin time from 1 minute to 5 minutes (was starting to be an
+issue with battery life)"
+horn3t,android_packages_apps_performancecontrol,h0rn3t,horn3t69@gmail.com,https://api.github.com/repos/horn3t/PerformanceControl/git/commits/cb3080e450973b1bd0d48adea9a20406fb0ecaf0,"added agressive to multicore power saving, added hotplug control, gpu max. freq."
+horn3t,android_packages_apps_performancecontrol,h0rn3t,horn3t69@gmail.com,https://api.github.com/repos/horn3t/PerformanceControl/git/commits/0bd51a31f79d503824ae8cc9bf71e5bcd933353e,added multicore power saving
+k9mail,k-9,Daniel Applebaum,danapple@danapple.com,https://api.github.com/repos/k9mail/k-9/git/commits/86f3b28f79509d1a4d613eb39f60603e08579ea3,"Fixes Issue 1413
+
+Look for + as acknowledgement that we're in IDLE mode, not ""idling""
+string.  
+
+Also, to help with battery life:
+1) Give up trying to IDLE after 10 failures.
+2) Increase retry delays"
+m66b,netguard,M66B,marcel@faircode.eu,https://api.github.com/repos/M66B/NetGuard/git/commits/96bac0489aeaaf7830c6f68cd1c183760a879160,Enable power save mode only when not installed from the Play store
+m66b,netguard,M66B,marcel@faircode.eu,https://api.github.com/repos/M66B/NetGuard/git/commits/0a0f216861c9c2961053afc0120ee8e1d848beb7,Add power saving to debug info
+m66b,netguard,M66B,marcel@faircode.eu,https://api.github.com/repos/M66B/NetGuard/git/commits/2e70a038970d6efe9f74e5719e7648f91de30498,"Lets behave
+
+When power save mode is enabled on Lollipop or later:
+- stop traffic logging
+- stop usage logging
+- stop speed graph notification"
+mapsme,omim,Lev Dragunov,lgardster@gmail.com,https://api.github.com/repos/mapsme/omim/git/commits/54968deac9dd8b3c62f5c0d6cdd5c4b1ee561d0c,"Merge pull request #995 from rokuz/follow-and-rotare-limit-fps
+
+Limited FPS in F&R routing mode to reduce energy consumption"
+mapsme,omim,r.kuznetsov,r.kuznetsov@corp.mail.ru,https://api.github.com/repos/mapsme/omim/git/commits/22272f5cd15ce1e9828ef2af15101c54f99a3669,Limited FPS in follow-and-rotate routing mode to reduce energy consumption.
+mapsme,omim,Constantin Shalnev,c.shalnev@corp.mail.ru,https://api.github.com/repos/mapsme/omim/git/commits/be94193c94643040a3299ca0a67bba3da5423f3f,Stop event loop if app goes to background to reduce power consumption
+mendhak,gpslogger,Fi156,mms89@gmx.de,https://api.github.com/repos/mendhak/gpslogger/git/commits/02ae3d74dc3bdda597465a3c1041efe9afa5054d,"Update GPSLogger/res/values-de/strings.xml
+
+Der Sinn war verdreht. Je weniger Punkte pro Zeit, desto lnger hlt der Akku.
+It would consume more batterie if you log more points/minute. Old Version said: more points/minute = less battery consumption."
+mendhak,gpslogger,Mendhak,smaltaf@msn.com,https://api.github.com/repos/mendhak/gpslogger/git/commits/90d56fc5fcfa680d02ad7c6b8b3724c3b794a8ad,"Distance summary changed, since it doesn't affect battery life anymore"
+mozilla,mozstumbler,Garvan Keeley,gkeeley@mozilla.com,https://api.github.com/repos/mozilla/MozStumbler/git/commits/1797407a535911c0dc5a57e1e5a8d77c88f89f3a,"Merge pull request #1419 from garvankeeley/power-saving-screen
+
+Added power saving settings screen."
+mozilla,mozstumbler,Garvan Keeley,garvankeeley@gmail.com,https://api.github.com/repos/mozilla/MozStumbler/git/commits/63122cfd7f255f9e72199eb3784901aa01204cc5,"Added power saving settings screen.
+Added power saving section to drawer view.
+Default power saving depends on presence of sig. motion sensor"
+mozilla,mozstumbler,Victor Ng,victor@crankycoder.com,https://api.github.com/repos/mozilla/MozStumbler/git/commits/6e3c81239183963e6e41009d45a55e37be26dc3d,"Merge pull request #1399 from garvankeeley/power-saving-options
+
+Motion detection options: off, on, or extra power savings"
+mozilla,mozstumbler,Garvan Keeley,garvankeeley@gmail.com,https://api.github.com/repos/mozilla/MozStumbler/git/commits/2132e036ab1edb234c723783d8c4b4939c57abbc,"Added support in the prefs UI for power saving options. UI only changes
+in this commit"
+mozilla,mozstumbler,Doug Turner,doug.turner@gmail.com,https://api.github.com/repos/mozilla/MozStumbler/git/commits/6ea026894de111a0e8c374c69a5521ac15d1179e,Add a way to disable power saving mode
+openpgp-keychain,openpgp-keychain,Dominik,dominik@dominikschuermann.de,https://api.github.com/repos/open-keychain/open-keychain/git/commits/4b8400685a62afa0f4cb21940e9583d21886535b,"completly new PasswordCacheService (more energy efficient), reworked Password dialogs"
+osmandapp,osmand,Victor Shcherb,victor.shcherb@gmail.com,https://api.github.com/repos/osmandapp/Osmand/git/commits/59c8b5d39cf2c0361d6f688d75e19f2786a4cbae,Fix battery consumption
+samuelclay,newsblur,dosiecki,ojiikun@gmail.com,https://api.github.com/repos/samuelclay/NewsBlur/git/commits/8468a1c7c591376dbaea69fcf614dd6eb8450c92,Obey animation disable if power saver kicks in.
+schwabe,ics-openvpn,Arne Schwabe,arne@rfc2549.org,https://api.github.com/repos/schwabe/ics-openvpn/git/commits/d97943e983f9ae9c48cfc2c6084bfec5049189e2,"- Increase Version
+- Add FAQ Entry for energy consumption"
+scummvm,scummvm,dhewg,dhewg@wiibrew.org,https://api.github.com/repos/scummvm/scummvm/git/commits/d4c0501d1fcc8c98d39b2b7ba627cccb29cbc476,"ANDROID: Check audio buffer for silence
+
+Most games register a music channel, and when there is no music,
+they still stream silence (and run through all the Converter::flow
+code!). Scan the buffer for that to pause the AudioTrack. Ugly, but
+worth it - reduces CPU usage on many games and hence saves battery life."
+slp,telegram-foss,DrKLO,drklo.2kb@gmail.com,https://api.github.com/repos/slp/Telegram-FOSS/git/commits/644fc7ccea9deee3686dc9c824893baa4ce4bef6,"Optimized battery consumption, fixed blurry photos on some devices, added option to auto download media only via WiFi, changed way of contacts changes monitoring
+
+https://github.com/DrKLO/Telegram/pull/422
+https://github.com/rubenlagus/Telegram/commit/d96ce3c140bd49c5c8c63cea2b
+c9afad8a16b8bb"
+syntaxblitz,plucklock,Timothy Aveni,timothy@tacosareawesome.com,https://api.github.com/repos/SyntaxBlitz/PluckLock/git/commits/60bda496b0445ab0bb8109aeee410db0d21c155c,"Attempt to conserve battery life
+Stupidly, I had neglected to STOP polling the accelerometer once the
+screen was locked. Which made it drain battery *really* quickly.
+
+Turns out the Android API is broken and won't stop polling the
+accelerometer no matter what, even if you call unregisterListener(). The
+receiver will just keep receiving legit samples and calling your receiver
+method, even after you set everything to null. And battery still drains
+a LOT.
+
+Gr."
+thialfihar,apg,Dominik,dominik@dominikschuermann.de,https://api.github.com/repos/thialfihar/apg/git/commits/4b8400685a62afa0f4cb21940e9583d21886535b,"completly new PasswordCacheService (more energy efficient), reworked Password dialogs"
+waboodoo,status-bar-tachometer,Roland Meyer,rmy@rmy.ch,https://api.github.com/repos/Waboodoo/Status-Bar-Tachometer/git/commits/724a831693483e88b6b1e4e04e14e6bd3231792c,location updates are only requested when the screen is on to save energy
+yakoo63,gtalksms,Florian Schmaus,fschmaus@gmail.com,https://api.github.com/repos/Yakoo63/gtalksms/git/commits/8b494aa27887a33f5ab5555a36aa1a9d360348a8,"- FileCmd with key-value database support
+- set keepAlive interval to 15 min to save energy
+- improved exception handling in xmppMuc"
+zanshinmu,wifi-fixer,David Van de Ven,zanshin.g1@gmail.com,https://api.github.com/repos/Zanshinmu/Wifi-Fixer/git/commits/2f30fec30f236e54bd6f3f08ead1254173c2e9eb,"Changed defaults to max wifi
+
+power savings"
